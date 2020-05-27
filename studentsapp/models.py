@@ -2,7 +2,7 @@ from django.db import models
 
 class student(models.Model):
 	companyid = models.CharField(max_length=20, null=False)
-	num = models.CharField(max_length=20, default='M', null=False)
+	num = models.CharField(max_length=20, null=False)
 	jobname = models.CharField(max_length=20, null=False)
 	name = models.CharField(max_length=20, null=False)
 	company = models.CharField(max_length=20, null=False)
