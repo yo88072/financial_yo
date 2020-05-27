@@ -91,7 +91,7 @@ def listall(request):
 	return render(request, "listall.html", locals())
 	
 def insert(request):  #新增資料
-    cName = '邱心怡'
+    cName = '123'
     cSex =  'M'
     cBirthday =  '1987-12-26'
     cEmail = 'bear@superstar.com'
